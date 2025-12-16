@@ -1,0 +1,77 @@
+# Python
+venv/
+.venv/
+env/
+venv.bak/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+.Python
+.env
+.venv
+
+# Database
+*.sqlite3
+db.sqlite3
+*.db
+*.sql
+*.sqlite
+
+# Django
+media/
+staticfiles/
+*.log
+local_settings.py
+instance/
+
+# React/Node
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.npm/
+frontend/.yarn/
+frontend/.cache/
+frontend/.yarnrc
+frontend/yarn.lock
+frontend/pnpm-lock.yaml
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.orig
+
+# OS
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
